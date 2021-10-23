@@ -1,0 +1,18 @@
+.MainImg {
+    width: 300px; 
+    height: 210px; 
+    margin: 50px  0 0 0; 
+}
+
+.imgMainImg {
+    width: 100%; 
+    height: auto; 
+}
+
+@media screen and (min-width: 1440px){
+    .MainImg {
+        width: 700px; 
+        height: 490px; 
+        margin: 200px 0 0 80px; 
+    }
+}

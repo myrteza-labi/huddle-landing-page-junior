@@ -1,0 +1,43 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+.HuddleApp {
+    width: 375px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background-image: url("../images/bg-mobile.svg"); 
+    background-repeat: no-repeat; 
+    background-color: #684BB1; 
+}
+
+.firstPart{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+}
+
+.secondPart {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* desktop style */
+@media screen and (min-width: 1440px){
+    .HuddleApp {
+        position: relative; 
+        justify-content: flex-start; 
+        width: 1440px; 
+        min-height: 800px; 
+        flex-direction: row; 
+        background-image: url("../images/bg-desktop.svg"); 
+    }
+    .secondPart {
+        justify-content: flex-start; 
+    }
+}

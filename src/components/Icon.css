@@ -1,0 +1,13 @@
+.Icon {
+    width: 27px; 
+    height: 27px; 
+    fill: #fff; 
+}
+
+
+@media screen and (min-width: 1440px){
+    .Icon {
+        width: 40px; 
+        height: 40px; 
+    }    
+}
